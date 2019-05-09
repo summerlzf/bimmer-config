@@ -4,6 +4,11 @@ globals:
 db:
   ds:
     read:
-      common: #通用读
+      common: # 通用读
+        url: jdbc:mysql://58330c2a49bed.gz.cdb.myqcloud.com:15566/bimmer?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+        username: cdb_outerroot
+    
+    write:
+      common: # 通用写
         url: jdbc:mysql://58330c2a49bed.gz.cdb.myqcloud.com:15566/bimmer?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
         username: cdb_outerroot
