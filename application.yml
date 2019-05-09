@@ -1,3 +1,7 @@
-server:
-  undertow:
-    workerThreads: 100
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB # MultipartFile 上传文件大小限制
+
+mybatis:
+  mapper-locations: classpath:mappers/*.xml
